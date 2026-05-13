@@ -896,7 +896,6 @@ function getRoundConfig(round) {
 
   const maxOnScreen = Math.min(2 + Math.floor(r * 0.18), 12);
 
-
   const minHp = Math.max(1, Math.floor((50 + r * 8) * multiplier));
   const maxHp = Math.max(minHp, Math.floor((65 + r * 9) * multiplier));
 
