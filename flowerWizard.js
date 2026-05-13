@@ -894,7 +894,8 @@ function getRoundConfig(round) {
   const baseTotal = Math.floor(Math.random() * (maxEnemies - minEnemies + 1)) + minEnemies;
   const total = Math.max(1, Math.floor(baseTotal * multiplier));
 
-  const maxOnScreen = Math.min(5 + Math.floor(r * 0.45), 18);
+  const maxOnScreen = Math.min(2 + Math.floor(r * 0.18), 12);
+
 
   const minHp = Math.max(1, Math.floor((50 + r * 8) * multiplier));
   const maxHp = Math.max(minHp, Math.floor((65 + r * 9) * multiplier));
